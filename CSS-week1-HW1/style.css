@@ -1,0 +1,44 @@
+/* 1. Nội dung trang */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* 2. Phần đầu trang */
+header {
+    background-color: #d9eaf7;
+}
+
+/* 3. Thanh điều hướng */
+nav {
+    background-color: #e8e8e8;
+}
+
+/* 4. Nội dung chính */
+main {
+    background-color: #f5f5f5;
+    font-size: 18px;
+}
+
+/* 5. Phần chân trang */
+footer {
+    background-color: #d9eaf7;
+}
+
+/* 6. Các mục danh sách */
+li {
+    display: inline-block;
+    width: 20%;
+}
+
+/* 7. Tiêu đề cấp 1 */
+h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #17365d;
+}
+
+/* 8. Đoạn văn */
+p {
+    line-height: 1.6;
+}
