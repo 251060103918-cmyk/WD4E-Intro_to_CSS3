@@ -1,41 +1,90 @@
+```css
+/* 1. Thiết lập chung */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
 }
 
+/* 2. Phần đầu trang */
 header {
     background-color: #d9eaf7;
     padding: 20px;
 }
 
+/* 3. Tiêu đề chính */
 h1 {
     text-align: center;
     font-family: Georgia, "Times New Roman", serif;
     color: #17365d;
 }
 
+/* 4. Thanh điều hướng */
 nav {
+    display: inline-block;
+    width: 80%;
     background-color: #e8e8e8;
     padding: 15px;
+    box-sizing: border-box;
 }
 
-nav a {
+/* 5. Chỉ chỉnh ảnh bên trong nav */
+nav img {
+    width: 10%;
+}
+
+/* 6. Comment CSS cũ của li */
+/*
+li {
     display: inline-block;
-    width: 30%;
+    width: 20%;
 }
+*/
 
+/* 7. Nội dung chính */
 main {
     background-color: #f5f5f5;
     font-size: 18px;
     padding: 20px;
 }
 
+/* 8. Bố cục grid gồm hai cột */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+/* Chỉ ảnh nằm trong grid có chiều rộng 100% */
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* 9. Bố cục flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Ảnh trong flex */
+.flex img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 10. Đoạn văn */
+p {
+    line-height: 1.6;
+}
+
+/* 11. Chân trang */
 footer {
     background-color: #d9eaf7;
     padding: 15px;
 }
-
-p {
-    line-height: 1.6;
-}
+```
