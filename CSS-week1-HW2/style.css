@@ -1,39 +1,28 @@
-```css
+
 /* 1. Thiết lập chung */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin: 0;
 }
 
 /* 2. Phần đầu trang */
 header {
-    background-color: #d9eaf7;
-    padding: 20px;
+    background-color: #b3d9ff;
 }
 
-/* 3. Tiêu đề chính */
-h1 {
-    text-align: center;
-    font-family: Georgia, "Times New Roman", serif;
-    color: #17365d;
-}
-
-/* 4. Thanh điều hướng */
+/* 3. Thanh điều hướng */
 nav {
     display: inline-block;
     width: 80%;
-    background-color: #e8e8e8;
-    padding: 15px;
-    box-sizing: border-box;
+    background-color: #d9d9d9;
 }
 
-/* 5. Chỉ chỉnh ảnh bên trong nav */
+/* 4. Chỉ chỉnh ảnh bên trong nav */
 nav img {
     width: 10%;
 }
 
-/* 6. Comment CSS cũ của li */
+/* 5. Nhận xét kiểu CSS cũ của li */
 /*
 li {
     display: inline-block;
@@ -41,14 +30,13 @@ li {
 }
 */
 
-/* 7. Nội dung chính */
+/* 6. Nội dung chính */
 main {
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
     font-size: 18px;
-    padding: 20px;
 }
 
-/* 8. Bố cục grid gồm hai cột */
+/* 7. Bố cục grid hai cột */
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -57,7 +45,7 @@ main {
     row-gap: 20px;
 }
 
-/* Chỉ ảnh nằm trong grid có chiều rộng 100% */
+/* 8. Chỉ ảnh trong grid có chiều rộng 100% */
 .grid img {
     width: 100%;
     height: auto;
@@ -71,20 +59,25 @@ main {
     gap: 20px;
 }
 
-/* Ảnh trong flex */
+/* 10. Ảnh trong flex */
 .flex img {
     max-width: 100%;
     height: auto;
 }
 
-/* 10. Đoạn văn */
+/* 11. Tiêu đề */
+h1 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #17365d;
+}
+
+/* 12. Đoạn văn */
 p {
     line-height: 1.6;
 }
 
-/* 11. Chân trang */
+/* 13. Chân trang */
 footer {
-    background-color: #d9eaf7;
-    padding: 15px;
+    background-color: #b3d9ff;
 }
-```
